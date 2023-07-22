@@ -29,11 +29,11 @@
     <!-- header -->
     <header class="md:container md:mx-auto">
         <!-- nav -->
-        <nav class="navbar bg-base-100 py-4">
-            <div class="navbar-start">
-                <a class="btn btn-ghost normal-case text-xl">daisyUI</a>
+        <nav class="navbar lg:flex-row flex-col bg-base-100 py-4 lg:justify-between">
+            <div class="lg:navbar-start navbar-center">
+                <a class="btn btn-ghost text-xl uppercase">daisyUI</a>
             </div>
-            <div class="navbar-end lg:space-x-8  md:space-x-5 space-x-3 ">
+            <div class="lg:navbar-end  navbar-center lg:space-x-8  md:space-x-5 space-x-3 ">
                 <a href="">Home</a>
                 <a href="">Shop</a>
                 <a href="">News</a>
@@ -297,13 +297,13 @@
     </main>
     <!-- footer -->
     <footer class="footer items-center mt-36  bg-black text-white">
-        <div class="flex w-4/5 mx-auto p-12 ">
-            <div class="w-1/2 space-y-6">
-                <ul class="flex gap-4">
+        <div class="flex lg:flex-row flex-col w-4/5 mx-auto p-12 ">
+            <div class="lg:w-1/2 w-full space-y-6 lg:text-start text-center lg:mb-0 mb-4">
+                <ul class="flex gap-4 lg:text-start text-center">
                     <li>Download Now</li>
                     <li>License</li>
                 </ul>
-                <ul class="flex gap-4">
+                <ul class="lg:flex flex flex-wrap gap-4 ">
                     <li>About</li>
                     <li>Features</li>
                     <li>Pricing</li>
@@ -313,10 +313,10 @@
                 </ul>
                 <li class="list-none">© 2020 bike. All rights reserved</li>
             </div>
-            <div class="w-1/2 text-end border-white space-y-3">
+            <div class="lg:w-1/2  w-full lg:text-end text-center border-white space-y-3">
                 <h2 class="text-xl">Get the App</h2>
-                <img src="./images/others/android.png" alt="" class="w-1/4 ml-auto ">
-                <img src="./images/others/ios.png" alt="" class="w-1/4 ml-auto">
+                <img src="./images/others/android.png" alt="" class="lg:w-1/4 w-1/2 lg:ml-auto lg:float-none float-right">
+                <img src="./images/others/ios.png" alt="" class="lg:w-1/4 w-1/2 lg:ml-auto float-right">
             </div>
         </div>
     </footer>
